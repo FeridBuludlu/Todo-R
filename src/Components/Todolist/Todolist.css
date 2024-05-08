@@ -1,0 +1,135 @@
+
+body.dark-mode {
+    background-color: black;
+    transition: background-color 0.6s;
+}
+
+.dark-mode {
+    color: white;
+}
+
+.dark-mode .list ul {
+    background-color : #25273D; 
+    border: 1px solid white;
+}
+.dark-mode .list ul li{
+    border: white;
+}
+.dark-mode input{
+    background-color: #25273D;
+    color: white;
+}
+
+
+.todolist {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  margin: 0 auto;
+  background-image: url("https://s3-alpha-sig.figma.com/img/03b8/22a8/10f232874b021926bb904eafb394287f?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W2UbKhGFnYrpmolIeEKMcTzg6KklgiEM4qbb~6WHe96Z46VdnziBMQ8lATqEc-OZuJ-bBJAZnXSkbprfyrXdqgbeR3GsvMeljsQ4vngUt7nkqwzoLa6yW-L6HmtBg3g-MzWeuT90eVrCGxCgQ59FW5XP9PppUMbZPJULWFgdk04rvKFiuEsSuKLFfROhUbgrg~ehz2wfjr-3OD2iGSs1I19E-FSEprG3LpvIW-Myd6ynWqrWbK684Q1DbVGk9CUoh3joJcQyHFB94rNeVmbGAoKHb5YLv5lygrNVO-BsuvC1s3S0aaX2YWh5sFoLQLamNfJHirjBqpvcxE7AIjMjBA__");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.todolist::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    225deg,
+    #5596ff 0%,
+    #ac2deb 100%
+  );
+  opacity: 0.5;
+}
+.title_page {
+  position: absolute;
+  width: 500px;
+  top: 130px;
+  left: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title_page h2 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.title_page i {
+  color: white;
+  font-size: 25px;
+}
+
+.form_div .form {
+  position: absolute;
+  top: 250px;
+  left: 500px;
+  display: flex;
+}
+.todolist input {
+  width: 420px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+}
+
+.todolist button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.todolist button:hover {
+  background-color: #0056b3;
+}
+
+.list ul {
+    list-style-type: none;
+    margin-top: 700px;
+    display: flex;
+    flex-direction: column-reverse;
+    transition: background-color 0.6s;
+    border-radius: 10px;
+  }
+.list li {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 420px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+  }
+  
+  
+  .list li span{
+    font-size: 30px;
+  }
+
+  .list li .checkbox{
+    width: 20px;
+    
+  }
+  .list button{
+    margin:  10px 0px;
+    
+  }
+
